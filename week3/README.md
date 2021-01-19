@@ -6,4 +6,4 @@
 # problem2  
 ![week4_1](./img/week3_2.png)  
 
->solution `stat --printf="%y %n\n" $(ls -at $(find * -type f))`
+>solution `stat --printf="%y ./%n\n" $(ls -at $(find * -type f))`
