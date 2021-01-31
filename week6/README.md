@@ -51,7 +51,13 @@ SIGQUIT (ctrl-\\) 으로 프로그램을 종료하거나 SIGSTOP(ctrl-z)으로 �
 <sup>[[1]](https://github.com/microsoft/WSL/issues/169)
 [[2]](https://github.com/microsoft/WSL/issues/4715)</sup>  
 
-<!--from here-->
+### signal key combinations  
+
+`ctrl+c` : SIGINT  
+`ctrl+z` : SIGSTP  
+`ctrl+\\` : SIGQUIT  
+`ctrl+s` : SIGSTOP  
+`ctrl+q` : SIGCONT  
 
 ## tmux  
 
